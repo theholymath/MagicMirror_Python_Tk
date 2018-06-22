@@ -1,0 +1,6 @@
+requests
+feedparser
+Pillow
+pocketsphinx
+SpeechRecognition
+pyaudio
