@@ -1,12 +1,12 @@
 # Smart-Mirror
-Raspberry powered mirror which can display the news, weather, and time.
+Eventually a Raspberry powered mirror which can display user-made modules in Python Tkinter.
 
 ## Installation and Updating
 ### Code
 If you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed, clone the repository.
 
 ```
-git clone git@github.com:HackerHouseYT/Smart-Mirror.git
+git clone git@github.com:theholymath/MagicMirror_Python_Tk.git
 ```
 
 **Alternatively, you can download a zip file containing the project (green button on the repository page)**
@@ -14,7 +14,7 @@ git clone git@github.com:HackerHouseYT/Smart-Mirror.git
 Navigate to the folder for the repository
 
 ```
-cd Smart-Mirror
+cd MagicMirror_Python_Tk
 ```
 
 ### Install your dependencies 
@@ -30,10 +30,10 @@ sudo apt-get install python-imaging-tk
 
 ### Add your api token
 Make sure vim is installed on your system: `sudo apt-get install vim`
-Use `vim` to edit you file
+Use `nano` to edit you file
 
 ```
-vim smartmirror.py
+nano smartmirror.py
 ```
 
 replace `weather_api_token` with the token you got from forecast.io
@@ -46,5 +46,3 @@ python smartmirror.py
 ```
 
 ## Demo and Build Instructions 
-(click image for link to video)
-[![Link to youtube how-to video](http://i.imgur.com/cMyaSHT.png)](https://youtu.be/fkVBAcvbrjU)
